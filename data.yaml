@@ -1,0 +1,13 @@
+train: /kaggle/input/trashnet-dataset/train/images
+val: /kaggle/input/trashnet-dataset/valid/images
+test: /kaggle/input/trashnet-dataset/test/images
+
+nc: 6
+names: ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
+
+roboflow:
+  workspace: polygence-project
+  project: trashnet-a-set-of-annotated-images-of-trash-that-can-be-used-for-object-detection
+  version: 20
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/polygence-project/trashnet-a-set-of-annotated-images-of-trash-that-can-be-used-for-object-detection/dataset/20
